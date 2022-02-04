@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void выход_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void отобразить_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

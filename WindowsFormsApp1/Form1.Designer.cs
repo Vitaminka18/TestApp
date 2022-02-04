@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
             this.отобразить.TabIndex = 0;
             this.отобразить.Text = "отобразить";
             this.отобразить.UseVisualStyleBackColor = true;
+            this.отобразить.Click += new System.EventHandler(this.отобразить_Click);
             // 
             // выход
             // 
@@ -51,6 +52,7 @@ namespace WindowsFormsApp1
             this.выход.TabIndex = 1;
             this.выход.Text = "выход";
             this.выход.UseVisualStyleBackColor = true;
+            this.выход.Click += new System.EventHandler(this.выход_Click);
             // 
             // textBox1
             // 
